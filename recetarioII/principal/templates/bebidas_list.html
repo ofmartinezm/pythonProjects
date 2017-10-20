@@ -1,0 +1,21 @@
+{% extends "base_layout.html" %}
+{% block title %}Listado de Bebidas II{% endblock %}
+
+{% block body %}
+<a href="{% url "lista:nuevo" %}">Agregar Nueva Bebida</a> |
+<h1>Listado de bebidas</h1>
+<p>
+  
+</p>
+<ul>
+{% for bebidas in object_list %}
+	<li>
+		<h1>{{ bebidas.nombre}}</h1>
+	
+		<p>
+	       
+	    </p>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

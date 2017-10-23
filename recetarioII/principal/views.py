@@ -24,7 +24,7 @@ class lista_bebidas(ListView):
 class BebidaCreation(CreateView):
     template_name = "tarea_form.html"
     model = Bebida
-    success_url = reverse_lazy('lista:detalle') 
+    success_url = reverse_lazy('lista:lista') 
     fields = ['nombre', 'ingredientes', 'preparacion']	
 	
 

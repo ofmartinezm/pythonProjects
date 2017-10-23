@@ -13,7 +13,7 @@
 		<h1>{{ bebidas.nombre}}</h1>
 	
 		<p>
-	       
+	       <a href="{% url "lista:detalle" bebidas.id %}">Ver</a>
 	    </p>
     </li>
 {% endfor %}

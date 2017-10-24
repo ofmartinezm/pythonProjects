@@ -1,0 +1,5 @@
+http://django-marcador.keimlink.de/es/preparation.html
+
+http://www.maestrosdelweb.com/curso-django-las-vistas/
+
+https://blog.johnserrano.co/crud-con-django-y-python-windows-y-linux/
